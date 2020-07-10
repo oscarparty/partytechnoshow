@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<title>Reproductor</title>
+</head>
+<body>
+	<div class="contenedor" id="contenedor">
+		<a href="#" id="btn_radio"><div class="ceja" id="radio"><div>Radio</div></div></a>
+		<audio src="http://stream.zeno.fm/mgvbps5s5yzuv?type=.mp3;" autoplay="autoplay" id="reproductor"></audio>
+		
+		<div class="titulo"><marquee behavior="scroll" class="marquee" ><span>Estas Escuchando Party Techno show</marquee></div>
+		<img class="cc_streaminfo album" data-type="trackimageurl" data-username="stereorock" /><br /><a href="#" class="cc_streaminfo" data-type="trackbuyurl" data-username="stereorock">
+		<div id="cont-spectro"></div>
+			<a id="player" href="#">
+				<div id="con-btn-play"></div>
+			</a>
+		<div class="orden">
+			<input type="range" min="0" max="1" value="1" step="0.1" id="mislider" class="slider ">
+		</div>
+
+	</div>
+	<script
+	  src="https://code.jquery.com/jquery-2.2.4.min.js"
+	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	  crossorigin="anonymous">	  	
+  	</script>
+  	<script type="text/javascript" src="js/bootstrap-slider.min.js"></script>
+  	<script type="text/javascript" src="js/audio.js"></script>
+	<script language="javascript" type="text/javascript" src="http://icecasthd.net:2199/system/streaminfo.js"></script>
+</body>
+</html>
