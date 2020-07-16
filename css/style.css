@@ -1,22 +1,20 @@
 body{
-	background-image: url('../img/background.jpeg');
+	background-image: url('../img/background.png');
 	background-size: cover;
 }
 .contenedor{
-	width: 250px;
-	height: 350px;
-	border:1px solid #000;
+	width: 350px;
+	height: 640px;
+	border:2px solid #000;
 	text-align: center;
 	background-image: url(../img/fondo.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	left: -253px;
-	top: 60px;
+	left: -350px;
+	top: 10px;
 	position: fixed;
-	transition: 1s;
-	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+
+	
 }
 .full{
 	left: 10px;
@@ -36,14 +34,14 @@ box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
 	margin:0 auto;
 }
 .album{
-	width: 150px;
-	height: 145px;
-	margin-top: 30px;
-	border:2px solid #eee;
+	width: 0px;
+	height: 0px;
+	margin-top: 0px;
+	border:0px solid #eee;
 }
 .ceja{
-	height: 100px;
-	width: 30px;
+	height: 550px;
+	width: 20px;
 	margin-left:100%;
 	top: 20px;
 	border-radius: 0px 8px 8px 0px;
@@ -53,13 +51,13 @@ box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
 }
 .marquee{
 	color: #eee;
-	font-size: 10pt;
-	margin-top: 20px;
+	font-size: 20pt;
+	margin-top: 40px;
 }
 #con-btn-play{
 	text-align: center;
 	color:#eee;
-	font-size: 35pt;
+	font-size: 60pt;
 }
 #player{
 	text-decoration: none;
@@ -84,16 +82,16 @@ box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
 .slider::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	appearance: none;
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	border-radius: 50%; 
 	background: #C0FF00;
 	cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-	width: 25px;
-	height: 25px;
+	width: 50px;
+	height: 50px;
 	border-radius: 50%;
 	background: #C0FF00;
 	cursor: pointer;
